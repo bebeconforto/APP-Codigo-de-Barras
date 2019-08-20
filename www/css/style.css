@@ -1,0 +1,22 @@
+/**/
+
+#icon{
+  margin-top: 20vh;
+}
+h3{
+  margin-top: 5vh;
+  font-size: 4vh;
+  font-weight: bold;
+}
+h5{
+  font-size: 2vh;
+}
+#codigo{
+  background-color: #A2C9FF;
+  margin-top:6vh;
+  width: 40vw;
+  height: 9vh;
+  border-radius: 10px;
+  font-size: 3vh;
+  display:flex;justify-content:center;align-items:center;
+}
