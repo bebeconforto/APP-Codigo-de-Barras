@@ -18,18 +18,25 @@
   <center>
   <div class="container">
 
-    <div class="init"> <!-- TELA INICAL -->
+    <div class="conteudo"> <!-- TELA INICAL -->
     <img id="icon" src="img/icon.svg">
     <h3>Scaneie o código de barras</h3>
     <h5>Aponte a camera no código de barras,<br>e estará pronto, isso ira necessitar que você<br>abra a camera </h5>
-    <button id="codigo" class="waves-effect waves-light btn-large">Continue</button>
+    <button id="codigo" class="waves-effect waves-light btn-large light-blue codigo">Continue</button>
     </div> <!-- FIM DA TELA INICIAL -->
   
-  
+
    <div class="infIpad"> <!-- Começo Ipad -->
-    <h1 class="titulo"> O Produto lido foi: </h1>
-    <p class="nomeCel"> iPad Mini Wi-Fi 64Gb - Cinza Espacial </p>
-    <center><img src="img/ipadMini.png" class="ipadfoto"></center>
+   <button id="remake" class=" waves-effect waves-red btn light-blue botao2" onclick="javascript:location.href='index.html'"><a><img style="width:3vh;margin-top: 50%;" src="img/left-arrow.svg"></a></button>
+     <h4 class="nomeCel">IPAD<br><b>MINI</b></h4>
+    
+    <center><img src="img/ipad.png" class="ipadfoto"></center>
+
+
+    <a class="waves-effect waves-light btn white modal-trigger botao1" href="#demo-modal">ESPECIFICAÇÕES</a>
+      <!-- Modal Structure -->
+  <div id="demo-modal" class="modal">
+    <div class="modal-content">
     <p class="descricao">
       <b>Preço:</b> R$ 3.499,00<br>
       <b>Descrição:</b> Processador A12 Bionic<br>com arquitetura de 64 bits Neural Engine<br> Coprocessador M12 integrado<br>
@@ -41,8 +48,18 @@
       <b>Memória Flash:</b> 64GB<br>
       <b>Funciona como celular:</b> Não <br>
       <b>Código do Dispositivo:</b> 280720550<br>
-    </p>
-    <button id="remake" onclick="javascript:location.href='index.html'"> Ler Novamente </button>
+    </p> -->
+
+ 
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-red btn light-blue">Close</a>
+    </div>
+  </div>
+
+   <div class="row">
+    
+    </div>
    </div> <!-- Fim do Ipad -->
 
     <div class="infGalaxy"> <!-- Começo Galaxy -->
@@ -62,7 +79,9 @@
       <b>Memória Disponível (GB):</b> 50.6 GB<br>
       <b>Código do Dispositivo:</b> 989895555<br>
     </p>
-    <button id="remake" onclick="javascript:location.href='index.html'"> Ler Novamente </button>
+    <button id="remake" onclick="javascript:location.href='index.html'">
+      
+    </button>
     </div> <!-- Fim do Galaxy -->
 
     <div class="infMoto"> <!-- Começo One -->
@@ -99,11 +118,15 @@
       <b>Resolução da câmera frontal:</b> 8.0 MP<br>
       <b>Código do Dispositivo:</b> 85369877444<br>
     </p>
-    <button id="remake" onclick="javascript:location.href='index.html'"> Ler Novamente </button>
+    <button id="remake" cla onclick="javascript:location.href='index.html'"> Ler Novamente </button>
     </div> <!-- Fim do Zen -->
 
     </div> <!-- FIM DO CONTAINER -->
  </center>
-
+<script>
+$(document).ready(function(){
+    $('.modal').modal();
+  })
+</script>
 </body>
 </html>

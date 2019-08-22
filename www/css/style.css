@@ -15,7 +15,7 @@ h3{
 h5{
   font-size: 2vh;
 }
-#codigo{
+.codigo{
   background-color: #A2C9FF;
   margin-top:6vh;
   width: 40vw;
@@ -25,6 +25,58 @@ h5{
   display:flex;justify-content:center;align-items:center;
   box-shadow: none;
 }
-.init{
+.conteudo{
   display: none;
+}
+
+.infIpad{
+display: none; 
+margin-top: 3vh; 
+}
+
+.infGalaxy{
+ /* display: none; */
+}
+
+.infMoto{
+  display: none;
+}
+
+.infZen{
+  display: none;
+}
+.cartao{
+ background-color: #A2C9FF;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.ipadfoto{
+  margin-top: -5%;
+  width: 40vh;
+}
+.botao1{
+  width: 70vw;
+  height: 10vh;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  color: #2196f3 ;
+  border: 3px solid #2196f3; 
+}
+.botao2{
+  margin-top: 5vh;
+  background-color: #A2C9FF;
+  width: 14vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: none;
+  margin-right: 80%;
 }
