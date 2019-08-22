@@ -25,9 +25,6 @@ h5{
   display:flex;justify-content:center;align-items:center;
   box-shadow: none;
 }
-.conteudo{
-  display: none;
-}
 
 .infIpad{
 display: none; 
@@ -35,15 +32,15 @@ margin-top: 3vh;
 }
 
 .infGalaxy{
- /* display: none; */
+  display: none; 
 }
 
 .infMoto{
-  display: none;
+ display: none; 
 }
 
 .infZen{
-  display: none;
+ display: none; 
 }
 .cartao{
  background-color: #A2C9FF;
@@ -53,7 +50,7 @@ margin-top: 3vh;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
-.ipadfoto{
+.aparelhofoto{
   margin-top: -5%;
   width: 40vh;
 }
